@@ -1,0 +1,86 @@
+body {
+    background-image: url(images/zhongli-namecard.png);
+    background-size: cover;
+    background-position: top;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 18px;
+    margin:0;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+header {
+    background-color: #b99c71;
+    color: #614539;
+    width: 70%;
+    padding: 50px 0px;
+    margin: 0 auto;
+}
+
+header h1{
+    padding: 0px 30px;
+}
+
+.container {
+    background-color: #e8c660;
+    font-weight: bold;
+    color: #af5427;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.container section {
+    padding: 50px 30px;
+}
+
+.container .lk:link {
+    color: #614539;
+    text-decoration: none;
+}
+
+.container .lk:visited {
+    color: #8f6f3f;
+}
+
+.container .lk:hover,
+.container .lk:focus,
+.container .lk:active {
+    color: #a40e0e;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+}
+
+.flex-container .btn{
+    background-color: #3b2f2e;
+    transition-duration: 0.2s;
+    border: 2px solid #b99c71;
+    padding: 10px 30px;
+}
+
+.flex-container .btn:link{
+    color: #f7df99;
+    text-decoration: none;
+}
+
+.flex-container .btn:visited{
+    color:#8f6f3f;
+}
+
+.flex-container .btn:hover, 
+.flex-container .btn:focus, 
+.flex-container .btn:active{
+    background-color:#760202;
+    color: #f7df99;
+    border-color: #3b2f2e;
+}
+
+
+.container footer{
+    padding: 0 30px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
