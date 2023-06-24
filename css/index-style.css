@@ -10,7 +10,7 @@ body {
   }
 
 header {
-    background-color: #b99c71;
+    background-color: rgba(185, 156, 113, 0.80);
     color: #614539;
     width: 70%;
     padding: 50px 0px;
@@ -22,7 +22,7 @@ header h1{
 }
 
 .container {
-    background-color: #e8c660;
+    background-color: rgb(232, 198, 96);
     font-weight: bold;
     color: #af5427;
     width: 70%;
@@ -31,6 +31,67 @@ header h1{
 
 .container section {
     padding: 50px 30px;
+}
+
+.flex-container{
+    display:flex;
+    flex-direction:column;
+    flex:1;
+}
+
+.dropdown {
+    display: flex;
+    position: relative;
+}
+
+.dropbtn {
+    background-color: rgba(59, 47, 46,0.85);
+    color: #f7df99;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid #b99c71;
+    cursor: pointer;
+    padding: 15px 10px;
+    width:100%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top:100%;
+    left:0;
+    right:0;
+    background-color: #af5427;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content .btn:link {
+    color: #f7df99;
+    text-decoration: none;
+    padding: 12px 16px;
+    display:block;
+}
+
+.dropdown-content .btn:hover,
+.dropdown-content .btn:focus,
+.dropdown-content .btn:active {
+    background-color: rgb(178, 132, 109);
+    color: #f7df99;
+    border-color: #3b2f2e;  
+}
+
+.dropdown-content .btn:visited {color:#1c160d;}
+
+.dropdown:hover .dropdown-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown:hover .dropbtn{
+    background-color: #760202;
 }
 
 .container .lk:link {
@@ -48,39 +109,8 @@ header h1{
     color: #a40e0e;
 }
 
-.flex-container {
-    display: flex;
-    flex-direction: column;
-    padding: 10px 0px;
-}
-
-.flex-container .btn{
-    background-color: #3b2f2e;
-    transition-duration: 0.2s;
-    border: 2px solid #b99c71;
-    padding: 10px 30px;
-}
-
-.flex-container .btn:link{
-    color: #f7df99;
-    text-decoration: none;
-}
-
-.flex-container .btn:visited{
-    color:#8f6f3f;
-}
-
-.flex-container .btn:hover, 
-.flex-container .btn:focus, 
-.flex-container .btn:active{
-    background-color:#760202;
-    color: #f7df99;
-    border-color: #3b2f2e;
-}
-
-
 .container footer{
     padding: 0 30px;
-    padding-top: 50px;
-    padding-bottom: 20px;
+    padding-top: 200px;
+    padding-bottom: 10px;
 }
