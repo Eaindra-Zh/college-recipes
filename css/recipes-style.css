@@ -1,0 +1,90 @@
+body {
+    background-image: url(images/zhongli-namecard.png);
+    background-size: cover;
+    background-position: top;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 18px;
+    margin:0;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+header {
+    background-color: rgba(185, 156, 113, 0.80);
+    color: #614539;
+    width: 70%;
+    padding: 50px 0px;
+    margin: 0 auto;
+}
+
+header h1{
+    padding: 0px 30px;
+}
+
+.container {
+    background-color: rgb(232, 198, 96);
+    font-weight: bold;
+    color: #af5427;
+    width: 70%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+}
+
+.container .lk:link {
+    color: #614539;
+    text-decoration: none;
+}
+
+.container .lk:visited {
+    color: #8f6f3f;
+}
+
+.container .lk:hover,
+.container .lk:focus,
+.container .lk:active {
+    color: rgba(59, 47, 46,0.85);
+}
+
+.container .description {
+    padding: 0px 45px;
+    width: 50%;
+    float: left;
+    clear: left;
+}
+
+.ing h3, .steps h3{
+    background-color: #af5427;
+    color: #f7df99;
+    margin-right: 35px;
+}
+
+ .ing, .steps{
+    width: 38%;
+    float: right;
+    clear: right;
+}
+
+.container .image img{
+    height: auto;
+    width: 50%;
+    margin: 30px 45px;
+    position: center;
+    float: left;
+    clear: left;
+}
+
+.ing ul , .steps ol{
+    background-color: rgb(178, 132, 109);
+    color: #f7df99;
+    padding: 20px;
+    margin-right: 35px;
+    list-style-position: inside;
+    text-align: left;
+}
+
+.container footer{
+    background-color: #614539;
+    padding-top: 1000px;
+    margin: 0px 40px;
+}
