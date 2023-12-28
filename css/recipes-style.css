@@ -49,18 +49,24 @@ header h1{
 .container .description {
     padding: 0px 45px;
     width: 50%;
-    float: left;
+    float: right;
+    clear: right;
+}
+
+.container .description p {
+    text-align: left;
 }
 
 .ing h3, .steps h3{
     background-color: #af5427;
     color: #f7df99;
-    margin-right: 35px;
+    margin-left: 35px;
 }
 
  .ing, .steps{
     width: 38%;
-    float: right;
+    float: left;
+    clear: left;
 }
 
 .container .image img{
@@ -68,14 +74,18 @@ header h1{
     width: 50%;
     margin: 30px 45px;
     position: center;
-    float: left;
+    float: right;
 }
 
 .ing ul , .steps ol{
     padding: 10px;
-    margin-right: 35px;
+    margin-left: 35px;
     list-style-position: inside;
     text-align: left;
+}
+
+.steps ol li{
+    margin-bottom: 15px;
 }
 
 .container footer{

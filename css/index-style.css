@@ -29,19 +29,35 @@ header h1{
     margin: 0 auto;
 }
 
+.image-container{
+    padding: 150px;
+    background-image: url(images/recipe.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .container section {
     padding: 50px 30px;
 }
 
+.container h2{
+    font-weight: bold;
+    color: #af5427;
+    border: 3px solid #f1f1f1;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
 .flex-container{
     display:flex;
-    flex-direction:column;
-    flex:1;
 }
 
 .dropdown {
     display: flex;
     position: relative;
+    flex: 1;
 }
 
 .dropbtn {
@@ -111,6 +127,6 @@ header h1{
 
 .container footer{
     padding: 0 30px;
-    padding-top: 200px;
+    padding-top: 100px;
     padding-bottom: 10px;
 }
